@@ -29,7 +29,9 @@ ES_REQUEST_HEADERS = {
 }
 
 es = Elasticsearch(
-    hosts=os.getenv("ES_HOSTS", []),
+    hosts=[
+        host for host in os.getenv("ES_HOSTS", "").split(",")
+    ],
     headers=ES_REQUEST_HEADERS,  # your username and password
     ssl_context=ssl_context,
     timeout=300,

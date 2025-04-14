@@ -3,7 +3,6 @@ from pathlib import Path
 
 ENV_FLASK_ENV = "FLASK_ENV"
 ENV_JWT_SECRET = "JWT_SECRET"
-ENV_ES_TOKEN = "ES_TOKEN"
 
 ENV_MAPPER = {"development": "dev", "cloud": "cloud"}
 

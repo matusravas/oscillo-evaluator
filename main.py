@@ -7,8 +7,6 @@ from app.fetcher import obtain_measured_data, post_anomaly_data
 
 @app.route('/evaluate/<bulk_id>', methods=['GET'])
 def evaluate(bulk_id: str):
-    print(bulk_id)
-    return 
     measured_data = obtain_measured_data(bulk_id) #TODO doplnit logy
     # if not measured_data.is_valid():
     evaluated_data = evaluate_measured_data(measured_data)
