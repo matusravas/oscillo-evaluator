@@ -1,18 +1,6 @@
 # Oscillo-evaluator
 
-**oscillo-evaluator** is a Python application for evaluating oscilloscope signal data. It helps analyze waveform outputs, extract features, and optionally visualize signal behavior using a configurable and scriptable backend.
-
----
-
-## 🧰 Features
-
-- 📊 Evaluate and process oscilloscope signals
-- ⚙️ Flexible processing logic (e.g., window splitting, time analysis)
-- 📂 Easy configuration via environment or CLI
-- 🐍 Async-compatible for fast integrations (e.g., querying Elasticsearch)
-- 🧪 Built-in test suite using `pytest`
-
----
+**oscillo-evaluator** is a Python application for evaluating oscilloscope signal data. It analyze waveform outputs, extract features and bulk results to Elasticsearch.
 
 ## 🚀 Getting Started
 
