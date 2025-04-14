@@ -1,0 +1,4 @@
+elasticsearch:
+  hosts:
+    - https://pds-elastic-test.es.northeurope.azure.elastic-cloud.com
+    

@@ -1,0 +1,9 @@
+flask
+elasticsearch==7.16.3
+tslearn==0.6.3
+h5py
+numpy~=2.0.2
+pyyaml
+pandas
+python-dotenv==1.0.1
+similaritymeasures

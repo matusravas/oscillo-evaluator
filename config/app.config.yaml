@@ -1,0 +1,8 @@
+api:
+  prefix: /api
+  version: v1
+jwt:
+  claim: identity
+  exp: 
+    access-token: 24 # hours
+    refresh-token: 14 # days

@@ -1,0 +1,14 @@
+opposite:
+  diff: 0.5
+  idx: 1850
+covariation:
+  start: 1650
+  end: 2000
+  ch1_threshold: 0.05
+  ch2_threshold: 0.1
+pearson:
+  warning: 0.85
+  alarm: 0.75
+area:
+  warning: 700
+  alarm: 900
